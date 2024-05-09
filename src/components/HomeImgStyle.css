@@ -1,0 +1,143 @@
+.body {
+    background-color: white;
+    overflow: hidden;
+}
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+/* Update your CSS */
+.hobby {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.hobby img {
+  width: 20%; /* Set a fixed width for the images */
+  height: 50%; /* Set a fixed height for the images */
+  object-fit: cover;
+  margin: 0 10px; /* Add some horizontal spacing between the images */
+}
+.my-shots-text h3 {
+  text-align: center;
+  font-size: 30px;
+  color: black; /* Adjust the text color */
+  margin-bottom: 20px; /* Add spacing between the text and images */
+}
+  
+  .into-img {
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 5%;
+  }
+  
+  .mask::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+  }
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-height: 100vh; /* Change "height" to "min-height" */
+  }
+  
+  .home .content {
+    position: absolute;
+    transform: translate(-50%, -51%);
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    display: block;
+  }
+  /* Rest of your CSS remains the same */
+  
+  
+  .home .content h1 {
+    white-space: nowrap;
+    text-align: center;
+    font-size: 250%;
+    padding: 0.2rem 1 1.5rem;
+  }
+  
+  .home .content h2 {
+    white-space: nowrap;
+    text-align: center;
+    font-size: 300%;
+    padding: 0.20rem 1 1.5rem;
+  }
+  
+  .home .content p {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  
+  .home .btn {
+    text-align: auto;
+    margin: 0rem 0.2rem;
+  }
+  
+  .home .Me h1 {
+    width: 50%;
+    height: 50%;
+    align-content: center;
+  }
+  
+  .about-container {
+    background-color: white;
+    padding: 250px; 
+    border-radius: 2rem;
+    border: 1px solid #ccc;
+    margin-bottom: 12px; 
+    text-align: center;
+    max-width: 90%;     
+    max-height: 90%;
+    margin: 5%; 
+  }
+  
+  .about-container h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-container p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .projects-container {
+    background-color: black;
+    padding: 250px; 
+    border: 1px solid #ccc;
+    margin-bottom: 12px; 
+    text-align: center;
+    
+  }
+  
+  .projects-container h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .projects-container p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  

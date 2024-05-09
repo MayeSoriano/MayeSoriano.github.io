@@ -1,0 +1,62 @@
+.about-container {
+  background-color: white;
+  padding: 90px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row; /* Set container as a row */
+  align-items: center; /* Center content vertically */
+  text-align: left; /* Align text to the left */
+}
+
+.about-container h2 {
+  font-size: 80px;
+  color: black;
+  text-align: left; /* Center the h2 text */
+  margin-left: 20px; /* Add left margin to the h2 */
+}
+
+.about-image img {
+  width: 400px; /* Set a specific width */
+  height: 200px; /* Set a specific height */
+  object-fit: contain;
+  margin-left: 0; /* Remove the left margin to move the image to the left edge */
+}
+
+.about-container p {
+  font-size: 16px;
+  color: #555;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 20px; /* Add left margin to the paragraphs */
+}
+.about-content p{
+  font-size: 20px;
+}
+
+.about-details {
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.about-detail {
+  margin-right: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.about-detail h2 {
+  font-size: 40px;
+  color: #333;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.about-detail p {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #555;
+  text-align: left;
+}
